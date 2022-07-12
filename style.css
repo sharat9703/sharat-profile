@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/40/84/pAO4Fn.jpg");
+  background-color: black;
+  color: whitesmoke;
+}
+div.header {
+  background-color: darkslateblue;
+  padding-top: 1%;
+  font-size: large;
+  text-align: center;
+}
+div.foot {
+  background-color: darkslateblue;
+  font-size: medium;
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: smaller;
+  margin: 0 auto;
+  font-size: 80%;
+}
+nav {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  top: 0;
+  min-width: none;
+  padding: auto 0;
+}
+footer {
+  background-color: darkslateblue;
+  height: 40px;
+}
+.profile,
+.Name,
+.Contact {
+  margin: 0 30px;
+  align-items: center;
+}
+.Name {
+  text-align: center;
+  padding-left: 7rem;
+}
+.profile {
+  font-size: 28px;
+  float: left;
+  margin: unset;
+  padding-left: 1.4rem;
+}
+.devicon-github-original-wordmark,
+.colored {
+  font-size: 4rem;
+}
+
+.devicon-github-original,
+.devicon-twitter-original,
+.devicon-linkedin-plain {
+  font-size: 1.1rem;
+}
+.profile-image {
+  margin: 0 50px;
+  padding: 40px;
+  align-items: center;
+}
+#locate {
+  color: yellow;
+  font-weight: bold;
+  font-style: italic;
+  border: 1px;
+  padding-top: 4px;
+}
+
+#skills {
+  border: 1px;
+  color: yellow;
+}
+#mypic {
+  max-width: 100%;
+  border-radius: 5cm;
+  border: black;
+  margin-top: 20px;
+  margin: 0 auto;
+  display: block;
+  height: 350px;
+}
+
+#sharat {
+  color: whitesmoke;
+  padding-bottom: 1em;
+  font-size: 28px;
+}
+#stack {
+  height: 22px;
+  width: 22px;
+}
+#About-me {
+  padding: 10px;
+  color: whitesmoke;
+  margin-left: 22%;
+  margin-right: 22%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#About-me,h2{
+    text-align: center;
+}
